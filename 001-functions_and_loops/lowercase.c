@@ -7,7 +7,10 @@
  */
 int main(void)
 {
-	char letter = 'Q';
+	char letter;
+	/*prompt user to enter letters*/
+	printf("Enter the letter to be checked :");
+	scanf("%c", &letter);
 	if (letter >= 97 && letter <= 122)
 	{
 	printf("Letter %c is lowercase!\n", letter);
