@@ -9,6 +9,9 @@ int main(void)
 {
 	char letter;
 	/*prompt user to enter letters*/
+	while (1)
+	{
+	printf("\n");
 	printf("Enter the letter to be checked :");
 	scanf("%c", &letter);
 	if (letter >= 97 && letter <= 122)
@@ -17,7 +20,8 @@ int main(void)
 	}
 	else
 	{
-	printf("Leteer %c is uppercase!\n", letter);
+	printf("Letter %c is uppercase!\n", letter);
+	}
 	}
 return (0);
 }
