@@ -47,5 +47,15 @@ int main(void)
 		printf("This is bullshit!!!!\n");
 		printf("\n");
 	}
+	/*get the sizes*/
+	printf("The size of my_array    is %lu bytes\n", sizeof(my_array));
+	printf("The size of my_array[0] is %lu bytes\n", sizeof(my_array[0]));
+	printf("The size of my_array[1] is %lu bytes\n", sizeof(my_array[1]));
+	printf("The size of my_array[2] is %lu bytes\n", sizeof(my_array[2]));
+	printf("The size of my_array[3] is %lu bytes\n", sizeof(my_array[3]));
+	printf("The size of my_array[4] is %lu bytes\n", sizeof(my_array[4]));
+	printf("\n");
+	
+	
 	return (0);
 }
